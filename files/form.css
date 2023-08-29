@@ -20,7 +20,7 @@
 .form-container{
     position: relative;
     margin: auto;
-    width: 25vw;
+    width: 30vw;
     /* height: 65rem; */
     /* max-height: 40vw; */
     background: url(./assets/back-form.jpg);
@@ -87,6 +87,25 @@
     height: 1.2vw;
     display: none;
 }
+
+.regform{
+    width: 100%;
+	padding: 10%;
+}
+.regform input{
+	width: 90%;
+	padding: 13px;
+	border-radius: 10px;
+	border: none;
+	margin: 5px 0;
+}
+.regform button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 9px;
+    margin-top: 10px;
+}
+
 
 .x-button{
     position: absolute;
