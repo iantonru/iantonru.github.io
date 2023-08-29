@@ -225,7 +225,6 @@
     .else {
         background-size: 311%;
         height: 45vw;
-        background-position-y: -110vw;
     }
 
     .nav-bar-footer {
