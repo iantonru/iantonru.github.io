@@ -67,11 +67,11 @@ img {
   flex-direction: column;
   align-items: center;
   min-height: 50vh;
-  justify-content: space-evenly;
 }
 .step > img {
   width: auto;
   height: 330px;
+  margin-bottom: 40px;
 }
 .display_inline {
   display: inline !important;
@@ -94,7 +94,8 @@ img {
 .step-title {
   color: rgb(255, 255, 255);
   font-family: Gilroy-Bold;
-  font-size: 3rem;
+  font-size: 4.5rem;
+  margin-bottom: 3rem;
 }
 .step-desc {
   color: rgb(255, 255, 255);
@@ -128,7 +129,6 @@ img {
     line-height: 6rem;
   }
 }
-
 
 .promo-main .text-title .date-text {
   font-size: 3rem;
@@ -167,7 +167,7 @@ img {
   left: calc(33.5vw);
 }
 .faq {
-  background: #B82A2A;
+  background: #b82a2a;
   position: relative;
 }
 .logo-container {
@@ -240,21 +240,21 @@ img {
   padding-top: 5rem;
   background-position: bottom center;
   display: flex;
-	align-items: flex-end;
-	justify-content: center;
+  align-items: flex-end;
+  justify-content: center;
 }
-.ourlogos{
-	display: flex;
-	flex-direction: column;
-	align-content: center;
-	align-items: center;
-	gap: 60px;
-	background: #b82a2a;
-	min-height: 40vh;
-	justify-content: flex-start;
-	padding-top: 110px;
+.ourlogos {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  gap: 60px;
+  background: #b82a2a;
+  min-height: 40vh;
+  justify-content: flex-start;
+  padding-top: 110px;
 }
-.ourlogos>a>img{
+.ourlogos > a > img {
   max-width: 300px;
 }
 
@@ -277,14 +277,14 @@ img {
   font-weight: bold;
 }
 .nav-bar-footer {
-	display: flex;
-	font-size: 1.3vw;
-	justify-content: space-around;
-	padding: 1.5rem 0;
-	min-height: 40px;
-	align-items: center;
-	background: #b82a2a;
-	color: #fff;
+  display: flex;
+  font-size: 1.3vw;
+  justify-content: space-around;
+  padding: 1.5rem 0;
+  min-height: 40px;
+  align-items: center;
+  background: #b82a2a;
+  color: #fff;
 }
 .feed-back-button__footer {
   cursor: pointer;
@@ -394,12 +394,12 @@ img {
 }
 .faq-title {
   display: block;
-	font-family: 'Gilroy-Bold';
-	color: #fff;
-	font-size: 6rem;
-	padding: 10rem 0 3rem 0;
-	flex-basis: 100%;
-	text-align: center;
+  font-family: "Gilroy-Bold";
+  color: #fff;
+  font-size: 6rem;
+  padding: 10rem 0 3rem 0;
+  flex-basis: 100%;
+  text-align: center;
 }
 .promo-description {
   white-space: pre-line;
@@ -672,13 +672,13 @@ img {
   height: fit-content;
 }
 
-.pop-up-window{
+.pop-up-window {
   min-height: 400px;
-	background: #c53838;
-	display: flex;
-	align-content: center;
-	align-items: center;
-	justify-content: center;
+  background: #c53838;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
   color: #fff;
   font-size: 1.5rem;
 }
@@ -821,7 +821,6 @@ img {
   }
   .button-container__nav {
     top: 40px;
-    
   }
   .button-container__nav-mobile {
     display: flex;
