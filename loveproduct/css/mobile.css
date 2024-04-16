@@ -1,0 +1,370 @@
+.nav-mobile {
+    display: none;
+    height: 18vw;
+    width: 100%;
+    justify-content:space-around;
+    align-items: center;
+    background-color: white;
+}
+
+.condition-steps-mobile{
+    display:  none;
+}
+
+.menu{
+    display: none;
+    width: 100vw;
+    background-color: white;
+    height: auto;
+    position: relative;
+    z-index: 4;
+}
+.menu.menu__open{
+    display: block;
+}
+
+.menu a{
+    display: block;
+    text-align: center;
+}
+
+.prizes-mobile{
+    display: none;
+}
+
+@media only screen and (max-width : 830px) { 
+    .nav-mobile{
+        display: flex;
+    }
+
+    .nav__main{
+        display: none;
+    }
+
+    .logo-img {
+        position: unset;
+        width: 16vw;
+        height: 16vw;
+    }
+
+    .link-span{
+        font-size: 12pt;
+        color:black;
+    }
+    .button{
+        width: 39vw;
+        height: 7.5vw;
+        line-height: 1.25rem;
+        font-size: 3.5vw;
+    }
+
+    .promo-main {
+        background-image: url(../img/back-mob.png);
+        height: 170vw;
+        overflow: hidden;
+        background-size: cover;
+        background-position: center bottom;
+        align-items: flex-start;
+    }
+
+    .promo-main .text-title {
+        margin: 60px 0px 0px 11%;
+    }
+
+
+    .condition-title{
+        display: none;
+    }
+
+    .condition-title, .faq-title {
+        display: block;
+        font-family: 'Gilroy-Bold';
+        color: #fff;
+        font-size: 3.8rem;
+        padding: 5rem 0 0 0;
+        flex-basis: 100%;
+        text-align: center
+    }
+
+ 
+
+    .promo-period {
+        padding-top: 20vw;
+    }
+
+    .new {
+        bottom: 78vw;
+        left: 61%;
+        width: 28vw;
+    }
+
+    .condition-title {
+        height: 5.5vw;
+    }
+
+    .condition {
+        background-size: 745%;
+        gap: 50px;
+    }
+
+    .step {
+        gap: 30px;
+    }
+
+
+    
+    .button__afterSteps {
+        width: 65vw;
+        height: 16vw;
+        line-height: 5.5rem;
+        font-size: 5.5vw;
+        bottom: calc(-16vw/2);
+        left: calc(50vw - 65vw/2 - 5px);
+    }
+
+    .prizes {
+        background-size: 80%;
+        height: 346vw;
+
+    }
+
+    .prizes-mobile{
+        display: block;
+    }
+
+    .prizes-desctop{
+        display: none;
+    }
+
+    .prize-title {
+        height: 11vw;
+        padding-top: 28vw;
+    }
+
+    .prize {
+        width: 77%;
+        height: unset;
+        margin-top: 11vw;
+    }
+
+
+    .prize-2{
+        width: 66%;
+        height: unset;
+        margin-top: 12vw;
+    }
+
+
+    .animals-prizes {
+        position: absolute;
+        width: 50vw;
+        bottom: -29vw;
+        left: calc(50vw - 25vw);
+    }
+
+    .faq-container {
+        flex-direction: column-reverse;
+    }
+    .faq-list {
+        position: absolute;
+        left: 0;
+        width: 70vw;
+        bottom: 74vw;
+    }
+
+    .card-item-container {
+        width: 95vw;
+    }
+
+    .question-text {
+        font-size: 2rem;
+    }
+
+
+    .answer-block {
+        font-size: 2.2rem;
+        line-height: 2.8rem;
+    }
+
+    .card-container {
+        margin-bottom: 4rem;
+    }
+
+    .faq-galchonok {
+        width: 45vw;
+        /* flex-grow: 0.5; */
+        display: block;
+        margin: auto;
+    }
+
+    .cat-back-forest {
+
+        width: 50vw;
+        left: 25vw;
+    }
+
+    .title {
+        height: 5vw;
+        padding-top: 15vw;
+    }
+    
+
+    .button__afterSteps {
+        margin-top: 9vw;
+    }
+
+    .else-title{
+        height: 9vw;
+    }
+
+    .else-ferma {
+        height: 52vw;
+        padding-top: 10vw;
+    }
+    
+    .else {
+        /* background-size: 311%; */
+        /* height: 45vw; */
+    }
+
+    .nav-bar-footer {
+        flex-direction: column;
+        font-size: 2.5vw;
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-bar-footer>div {
+        margin-bottom: 4vw;
+        text-align: center;
+    }
+
+    .oferta {
+        font-size: 3vw;
+    }
+
+    .form-window-container {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    div.form-container{
+        width: 100vw;
+        height: 100vh;
+        overflow: scroll;
+    }
+
+
+    .choose-store {
+        font-size: 6vw;
+        margin-top: 13vw;
+    }
+
+    .title.title-store {
+        height: 13vw;
+        padding-top: 3vw;
+    }
+
+
+    .x-button {
+ 
+        width: 4.5vw;
+    }
+
+    .back-button {
+        width: 3.5vw;
+        height: 3.5vw;
+    }
+
+    .nav-title {
+        font-size: 6.6vw;
+        margin-bottom: 8vw;
+    }
+
+    .ch_field {
+        height: 12vw;
+        width: 74vw;
+        margin-bottom: 4.5vw;
+        border-radius: 6vw;
+    }
+
+    .ch_input {
+        border-radius: 6vw;
+    }
+
+    .loadCheck {
+        margin-left: 1.5rem;
+        font-size: 4.5vw;
+    }
+    .flex {
+        margin-top: 9vw;
+     height:  unset
+    }
+
+    .see {
+        font-size: 4.1vw;
+        width: 67vw;
+    }
+
+    .ch_input-checkbox-text {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .ch_input-checkbox {
+        width: 7.5vw;
+        height: 7.5vw;
+    }
+
+    .button__form {
+        width: 64vw;
+        height: 14vw;
+        font-size: 5vw;
+    }
+
+    .nav-title{
+        margin-top: 15vw;
+    }
+
+    .message-feedBack {
+        width: 70vw;
+        border-radius: 3.5vw;
+
+        margin-bottom: 4.5vw;
+    }
+
+
+    .no-winners {
+        font-size: 5vw;
+        padding-top: 19vw;
+    }
+
+    .lending {/* background-size: 210%; */}
+
+    .form-message-img {
+        height: 8vw;
+        margin-bottom: 6vw;
+    }
+
+    .form-message-container {
+        width: 70vw;
+    }
+
+    .form-message-text {
+        margin-bottom: 2vw;
+        font-size: 3rem;
+    }
+
+    .button.button__form.button__form-status.button__form__success {
+        height: 10.5vw;
+
+    }
+
+    .page {
+        font-size: 4.5vw;
+        line-height: 6.5vw;
+        height: 6.5vw;
+        margin: 1.5vw;
+        margin-bottom: 0;
+    }
+}
