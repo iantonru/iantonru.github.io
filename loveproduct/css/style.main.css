@@ -3,7 +3,7 @@
 html { width: 100%; font-size: 8px; font-family: Gilroy-Regular; font-style: normal; font-weight: normal; height: auto; min-height: 100vh; color: black; z-index: 2; background: rgb(241, 241, 241); }
 body { width: 100%; height: auto; min-height: 100vh; }
 img { z-index: 1; }
-.lending {width: 100%;position: absolute;background: #0A397B;height: auto;min-height: 100vh;background-image: url(../img/back-full.jpg);background-size: cover;}
+.lending {width: 100%;position: absolute;background: #0A397B;height: auto;min-height: 100vh;background-image: url(../img/back-full.jpg);background-size: cover;background-position: center top;}
 .check-form { display: none; }
 .nav { z-index: 5; position: absolute; width: 100%; height: 12rem; display: flex; justify-content: center; align-items: center; top: 0%; left: 0%; }
 .condition {background-size: cover;min-height: 47vw;display: flex;flex-wrap: wrap;justify-content: space-evenly;padding: 5rem 0px 9rem;gap: 20px;}
@@ -34,6 +34,7 @@ img { z-index: 1; }
 .else {background-image: url("../img/back-footer.png");background-size: 100%;min-height: 30vw;position: relative;background-repeat: no-repeat;color: rgb(255, 255, 255);padding-top: 5rem;background-position: center bottom;display: flex;align-items: flex-start;justify-content: center;}
 .ourlogos {display: flex;place-content: center flex-start;align-items: center;gap: 100px;margin-top: 75px;justify-content: center;flex-direction: row;align-content: center;flex-wrap: wrap;}
 .ourlogos > a > img {max-width: 90%;width: 650px;text-align: center;}
+.ourlogos > a {text-align: center;}
 .any-q-title { height: 3vw; }
 .cat-back-forest { position: absolute; bottom: 0px; width: 24vw; left: 38vw; }
 .else-ferma { height: 22vw; }
