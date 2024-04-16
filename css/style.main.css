@@ -32,7 +32,7 @@ img { z-index: 1; }
 .title { display: block; height: 4vw; margin: auto; padding-top: 7vw; }
 .button__useForm { position: static; display: block; margin: 2vw auto auto; }
 .else {background-image: url("../img/back-footer.png");background-size: 100%;min-height: 30vw;position: relative;background-repeat: no-repeat;color: rgb(255, 255, 255);padding-top: 5rem;background-position: center bottom;display: flex;align-items: flex-start;justify-content: center;}
-.ourlogos {display: flex;place-content: center flex-start;gap: 100px;margin-top: 75px;justify-content: flex-start;flex-direction: row;flex-wrap: wrap;align-items: center;}
+.ourlogos {display: flex;place-content: center flex-start;align-items: center;gap: 100px;margin-top: 75px;justify-content: center;flex-direction: row;align-content: center;flex-wrap: wrap;}
 .ourlogos > a > img {max-width: 90%;width: 650px;text-align: center;}
 .ourlogos > a {text-align: center;}
 .any-q-title { height: 3vw; }
